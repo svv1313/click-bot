@@ -19,8 +19,8 @@ class ClickerSettings: ObservableObject {
     }
     
     // Default values
-    private let defaultMinInterval: Int = 80
-    private let defaultMaxInterval: Int = 120
+    private let defaultMinInterval: Int = 500
+    private let defaultMaxInterval: Int = 1500
     private let defaultPauseAfterUserInputSeconds: Double = 1.5
     
     // Published properties that persist to UserDefaults
